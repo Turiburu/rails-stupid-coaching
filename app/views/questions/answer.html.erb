@@ -1,0 +1,8 @@
+ <blockquote class="you">
+  <cite><%= @question.capitalize %><br>-You</cite>
+   </blockquote>
+<blockquote class="coach">
+  <cite><strong><%= @answer.capitalize %></strong><br>-Your coach</cite>
+</blockquote>
+
+<%= link_to "Ask a new question", ask_path %>
